@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## pip 安装
 ```bash
-pip install nanh-easy-google-search==0.0.1
+pip install nanh-easy-google-search
 ```
 
 # 示例
