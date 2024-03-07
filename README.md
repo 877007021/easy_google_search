@@ -7,14 +7,22 @@ Google官方出的搜索工具无法直接使用代理，就对官方的进行�
 - urllib3
 
 # 安装
+## 源码安装
 ```bash
 git clone https://github.com/877007021/easy_google_search.git
 pip install -r requirements.txt
+
+```
+
+## pip 安装
+```bash
+pip install nanh-easy-google-search==0.0.1
 ```
 
 # 示例
 ``` python
-from google import search  
+from nanh_easy_google_search.google import search
+# or from google import search  
   
 proxies = {  
     'http': 'http://127.0.0.1',  
